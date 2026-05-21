@@ -1,0 +1,2 @@
+# gmrit
+GMRIT - Practice code
