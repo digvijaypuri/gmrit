@@ -25,6 +25,8 @@ public class public_private_protecteddemo {
         System.out.println("Accessing public member: " + car.brand);
         
         // Accessing private member directly (not possible, will cause a compile-time error)
+        // Accessing private member
+        // Possible because main() is inside same class
         System.out.println("Accessing private member: " + car.model); // Uncommenting this line will cause an error
         
         // Accessing protected member directly
